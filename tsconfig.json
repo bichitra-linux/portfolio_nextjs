@@ -17,6 +17,6 @@
     },
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx",  "src/declarations.d.ts"],
   "exclude": ["node_modules"]
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import styles from "./testimonials.module.css";
 import AVTR1 from "../../../assets/bastian.jpg";
 import AVTR2 from "../../../assets/marie.jpg";
@@ -64,7 +65,7 @@ const Testimonials = () => {
         {data.map(({ avatar, name, review }, index) => (
           <SwiperSlide key={index} className={styles.testimonial}>
             <div className={styles.coworker_avatar}>
-              <img src={avatar.src} alt={name} />
+              <Image src={avatar.src} alt={name} />
             </div>
             <h5 className={styles.coworker_name}>{name}</h5>
             <small className={styles.coworker_review}>{review}</small>

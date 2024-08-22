@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import styles from "./about.module.css";
 import profile3 from "../../../assets/profile3.png";
 import { FaAward } from "react-icons/fa";
@@ -13,7 +14,7 @@ const About = () => {
       <div className={`container ${styles.about_container}`}>
         <div className={styles.about_me}>
           <div className={styles.about_me_image}>
-            <img className={styles.about_me_image_edit} src={profile3.src} alt="About Bichitra image" />
+            <Image className={styles.about_me_image_edit} src={profile3.src} alt="About Bichitra image" />
           </div>
         </div>
         <div className={styles.about_content}>
@@ -49,7 +50,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            I'm a fullstack developer currently working on the GUI of The UMS System, a
+            I&apos;m a fullstack developer currently working on the GUI of The UMS System, a
             large scale Mrdical Records Management system. My primary tech stack is NextJS 14, Material Design, TypeScript, Node, and SCSS / SASS for styling. Git is used for team collaboration and Vercel and Netlify deployment.
             My day-to-day consists of a daily stand-up and biweekly sprints. My core responsibility centers on creating and maintaining components for new features that interact with our large databases as
             well as creating and designing an effective user experience.<br />
@@ -59,7 +60,7 @@ const About = () => {
             
           </p>
           <p>
-            When I'm not coding at my job, I do miscellaneous activities on my YouTube channel with
+            When I&apos;m not coding at my job, I do miscellaneous activities on my YouTube channel with
             2,000+ subscribers, called <a href="https://www.youtube.com/@linepsofficial">Lineps Official</a>
           </p>
           {/* <p>
@@ -76,7 +77,7 @@ const About = () => {
           </p> */}
           <p></p>
           <a href="#contact" className="btn btn-primary">
-            Let's Talk
+            Let&apos;s Talk
           </a>
         </div>
       </div>

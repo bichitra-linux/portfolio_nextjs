@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 import styles from "./portfolio.module.css";
 import IMG1 from "../../../assets/brights-lite.png";
 import IMG2 from "../../../assets/blog.png";
@@ -70,7 +71,7 @@ const Portfolio = () => {
           return (
             <article key={id} className={styles.portfolio_item}>
               <div className={styles.portfolio_item_image}>
-                <img src={image.src} alt={title} />
+                <Image src={image.src} alt={title} />
               </div>
               <h3>{title}</h3>
               <div className={styles.portfolio_item_cta}>
