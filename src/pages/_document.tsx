@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
       <script
             async
-            src={`https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`}
+            src={`https://www.googletagmanager.com/gtag/js?id=G-Q68YQ5Q3YG`}
           />
           <script
             dangerouslySetInnerHTML={{
