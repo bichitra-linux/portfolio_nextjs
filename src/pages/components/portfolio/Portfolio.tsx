@@ -21,7 +21,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "NextJS | TailwindCSS | GraphQL Blog",
+    title: "NextJS Blog",
     github: "https://github.com/bichitra-linux",
     demo: "",
     brief: "",
@@ -29,7 +29,7 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: "JavaScript | HTML | CSS Calculator",
+    title: "JavaScript Analog Clock",
     github: "https://github.com/bichitra-linux",
     demo: "",
     brief:
