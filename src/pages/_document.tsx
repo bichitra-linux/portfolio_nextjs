@@ -19,6 +19,7 @@ export default function Document() {
         <meta property="og:image" content="" />
         <meta property="og:url" content="https://bichitra.com.np" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="google-site-verification" content="fEyXDUzyc3iHzAk1KkyVH58S-uEYVwRwvs5lJe20LeY" />
         <link rel="icon" href="/favicon.ico" />
         <script
           async
