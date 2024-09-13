@@ -1,9 +1,10 @@
 import { generateKeywords } from "@/utils/seo";
+import { content } from "@/utils/content";
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
 
-  const content = "Bichitra Gautam is a web developer and freelancer specializing in software development and technology. With years of experience in the industry, Bichitra has honed his skills in various programming languages and frameworks, including JavaScript, React, Node.js, and more. He is passionate about creating efficient, scalable, and user-friendly web applications. Bichitra is also an advocate for continuous learning and keeps himself updated with the latest trends and advancements in technology. In addition to his technical expertise, he has a keen eye for design and usability, ensuring that the applications he develops are not only functional but also visually appealing and easy to use.";
+  
 
 
   return (
