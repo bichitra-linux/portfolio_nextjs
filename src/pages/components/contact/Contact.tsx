@@ -31,7 +31,7 @@ const Contact = () => {
             <MdOutlineEmail className={styles.contact_option_icon} />
             <h4>LinkedIn</h4>
             <h5>Bichitra Gautam</h5>
-            <a href="https://www.linkedin.com/messaging/compose/?recipient=urn:li:person:bichitra-linux">
+            <a href="https://www.linkedin.com/messaging/compose/?recipient=urn:li:person:Bichitra-Gautam">
   Send a message
 </a>
           </article>
